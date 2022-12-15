@@ -29,3 +29,16 @@ History of JavaScript
 -Ecma script 3(1999)
 -ES5- 2009
 -ES6 $ ES7
+
+What you should know?
+
+-HTML & HTML5
+-CSS & CSS3           
+                        HTML         CSS           JavaScript
+                          |           |               |
+                          |           |               |
+                      Content         |           Behavioural
+                    Structural     Style
+                                Presentation
+
+                                
