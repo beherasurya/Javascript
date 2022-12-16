@@ -396,3 +396,27 @@ function myFunction(x,y,z)
 }
 myFunction(25,26,27,28);
 //28 is ignored
+
+Creating Arrays
+
+Hold multiple values
+0 based index
+
+var someData=["One","Two","Three"];
+var someData=new Array("one","two","three");
+    [0]=one;
+    [1]=two;
+    [2]=three;
+
+someData[0]=One
+someData[1]=Two
+someData[2]=three
+
+Array Methods
+
+var someData=[10,20,30,40,50];
+
+var someData=[10,20,30,40,50];
+var newSomeData=someData.reverse();
+        .join();
+        .sort();
