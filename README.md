@@ -278,4 +278,53 @@ var remainder=year%4;//remainder is 3
     highScore=playerTwo;
  }
  var highScore=(playerOne>playerTwo)?playerOne:playerTwo;
- 
+
+ Loops in JavaScript
+
+ Repeat code again & again
+ Repeat this 500 times
+ Statement One
+ Statement Two
+
+ While Loop
+ var a=1;
+ if(a<10)
+ {
+    //do something
+ }
+ var a=1
+ while(a<10)
+ {
+    //do something
+    a++;
+ }
+ Do While Loop
+ var a=1;
+ do
+ {
+    //do something
+    a++;
+ }while(a<10);
+ For Loop
+ for(i=1;i<10;i++)
+ {
+    //do something
+ }
+ Break
+ for(i=1;i<10;i++)
+ {
+    //do something
+    if(i==5)
+    {
+        break;
+    }
+ }
+ Continue
+ for(i=1;i<10;i++)
+ {
+    //do something
+    if(i==5)
+    {
+        continue;
+    }
+ }
