@@ -82,3 +82,34 @@ alert("hello,World!");//another comment
 this is a block comment
 */
 
+Variables in JavaScript
+
+Creating variables
+
+-var name,email,phone
+-var year;
+-var customerEmail;
+-var todaysDate;
+-var box;
+-var x;
+ Wrong Sytax           -var 99boxes;
+-var boxes99;
+
+Variable datatypes
+Integer
+Floating point
+String
+Boolean
+Array
+Date
+object
+
+Setting variable
+
+var box=99;
+var box="Hello World";
+var box='Hello world';
+var box=true;
+var box=false;
+
+
