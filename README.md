@@ -41,4 +41,43 @@ What you should know?
                     Structural     Style
                                 Presentation
 
-                                
+
+Do's and Don't
+
+Correct alert("Hello, World!");
+Wrong   Alert("Hello, World!");
+
+Statements in JavaScript
+
+-Change color of heading
+-Calculate age
+-Move and image
+-Hide a menu
+-Alert some "important message"
+ 
+ Statements are written in 1 line
+
+ user multiple line to declare your statement
+
+ alert("Hello,World!");
+ alert("Another message!");
+ alert("Warning message!");
+
+Whitespace in javaScript
+ Correct Syntax:
+    alert("hello,World!");
+    alert ( "Hello,World!" );
+    alert(
+        "Hello,World!"
+    );
+
+Wrong Syntax
+    alert("Hello, World!");
+
+Comments in JavaScript
+
+//this is a comment
+alert("hello,World!");//another comment
+/*
+this is a block comment
+*/
