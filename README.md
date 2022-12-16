@@ -165,4 +165,117 @@ if(something is true)
 {
     //do something else
 }
+Arithmetic  Operators
+Addition(+)
+Subtraction(-)
+Multiplication(*)
+Division(/)
 
+Assignment Operator
+Assignment operator(=)
+        result=a+b
+score=score+10;
+score+=10;
++=
+-=
+*=
+/=
+Operator Precedence
+result=10+10*5; 60
+result=(10+10)*5; 100
+
+Comparison Operator
+
+a=5;
+b=10;
+
+Wrong Way
+if(a=b)
+{
+    //True 
+}
+if(a==b)
+{
+    //False
+}
+if(a===b)
+{
+    //False
+}
+Comparison Operator
+a=5;
+b=10;
+if(a!=b)
+{
+    //True
+}
+if(a!==b)
+{
+    //True
+}
+Comparison Operator
+a=5;
+b=10;
+if(a>b)
+{
+    //code 
+}
+if(a<b)
+{
+    //code
+}
+if(a>=b)
+{
+    //code
+}
+if(a<=b)
+{
+    //code
+}
+Logical AND /OR
+Comparing several things
+
+if(a===b && ==d)
+{
+
+}
+if(a===b || c==d)
+{
+
+}
+Modulus
+var year=2003
+var remainder=year%4;//remainder is 3
+ Increment & Decrement
+ a=a+1;
+ a+=1;
+ a++;
+ ++a;
+ a=a-1;
+ a-=1;
+ a--;
+ --a;
+ Postfix & Prefix
+ var a=5;
+ alert(++a);  6
+ var a=5;
+ alert(a++);  5
+
+ Ternary Operator
+
+ condition?true:false
+
+ Ternary Example
+ var playerOne=500;
+ var playerTwo=600;
+ var highScore;
+ if(playerOne > playerTwo)
+ {
+    highScore=playerOne;
+ }
+ else
+ {
+    highScore=playerTwo;
+ }
+ var highScore=(playerOne>playerTwo)?playerOne:playerTwo;
+ 
