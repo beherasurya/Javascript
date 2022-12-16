@@ -593,3 +593,11 @@ Move an image position
 add some click functionality
 create new elements
 
+Get and Element Node
+
+The object has to be unique
+Use: document.getElementsById("some_id");
+Use:document.getElementsByTagName("a");
+
+.nodeType  .innerHTML
+
