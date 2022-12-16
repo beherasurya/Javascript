@@ -573,3 +573,23 @@ player2.logDetails=playerDetails;
 player1.logDetails();
 player2.logDetails();
 
+What is DOM
+
+Document Object model
+Everything inside a page object
+
+                html
+head                          body
+title               hl      p       ul
+                                    li li li
+What you can do with DOM
+
+Get the title text
+Get second paragraph
+Set CSS
+Get names of tags
+Get all li elements in a ul list
+Move an image position
+add some click functionality
+create new elements
+
