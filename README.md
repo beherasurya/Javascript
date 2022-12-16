@@ -466,3 +466,40 @@ var biggestNumber=Math.min(a,b,c);
 
 Math.PI    Math.random()          .sqrt()          .log()
 
+Strings in JavaScript
+
+var myString="A simple string";
+var myString='A simple string';
+
+Wrong Syntax
+ 
+var myString="He said "that's fine," and left.";
+
+Correct Syntax
+
+var myString="He said\"that\'s fine,\" and left.";
+
+String Properties & Methods
+
+var phrase="this is a simple phrase";
+
+console.log(phrase.length); //24
+console.log(phrase.toUpperCase()); //Method
+
+var phrase="this is a simple phrase";
+var words=phrase.split(" ");
+
+IndexOf a string
+
+var phrase="We want a groovy keyword";
+var position=phrase.indexOf("groovy");//10
+
+if not found will return -1
+.lastIndexOf()
+
+Slice in String
+
+var phrase="Yet another phrase";
+var segment=phrase.slice(6,5); //6th position 5 letters starting from 0
+.substring()       .substr()
+"UPPER CASE letters are considered as less than lowercase letters"
