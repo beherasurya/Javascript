@@ -532,3 +532,44 @@ today.setMonth(5);
 today.setFullYear(2020);
 today.setDay(0);
 
+Objects in JavaScript
+Array
+Date
+
+Creating an Object
+
+var playerName="john";
+var playerScore=10000;
+var playerRank=1;
+
+var player1={
+    name:"John",
+    score:10000,
+    rank:1
+};
+player1.name
+player1.score
+player1.rank
+
+var player2={
+    name:"Smith",
+    score:5000,
+    rank:2
+};
+player2.name
+player2.score
+player2.rank
+
+OOP with JavaScript
+
+function playerDetails()
+{
+    //display info for each player
+    console.log(this.name+","+this.rank+","+this.score);
+}
+player1.logDetails=playerDetails;
+player2.logDetails=playerDetails;
+
+player1.logDetails();
+player2.logDetails();
+
