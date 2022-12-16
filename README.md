@@ -420,3 +420,49 @@ var someData=[10,20,30,40,50];
 var newSomeData=someData.reverse();
         .join();
         .sort();
+
+Numbers in JavaScript
+
+All numbers are 64bit floating point numbers.
+20 and 20.0 is the same in javascript.
+
+Addition vs Concatenation
+
+var a=5;
+var b=5;
+console.log(a+b); //addition 10
+
+var 1=5;
+var b="5";
+console.log(a+b);// joining 55
+
+var a="5";
+var b="5";
+console.log(a+b);// joining 55
+
+Wrong syntax
+var a=5;
+var b="five";
+console.log(a*b);//NaN
+
+Not a Number
+var a="55";
+var myNumber=Number(a); //try to convert it to a number
+
+if(isNaN(myNumber))
+{
+    console.log("its not a number");
+
+}
+
+Using Math Object
+
+var x=200.6;
+var y=Math.round(x); ///201
+
+var a =10,b=20,c=30;
+var biggestNumber=Math.max(a,b,c);
+var biggestNumber=Math.min(a,b,c);
+
+Math.PI    Math.random()          .sqrt()          .log()
+
