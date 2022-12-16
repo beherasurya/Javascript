@@ -112,4 +112,57 @@ var box='Hello world';
 var box=true;
 var box=false;
 
+Conditions in JavaScript
+
+if(condition)
+{
+    //code goes here
+}
+
+programming guidelines
+
+( Parentheses)
+[Brackets]
+{Braces}
+
+True or False with Conditions
+
+if(x<50)
+{
+    //code goes here
+}
+
+simple operations
+
+if(a==b)
+{
+    //do something
+}
+a==b
+a>b
+a!=b
+a==b
+
+Extended Conditions
+
+if(something is true)
+{
+    //do this
+}
+else
+{
+    //do something else
+}
+Nested Conditions
+if(something is true)
+{
+    //do this
+    if(something is true inside)
+    {
+        //do something nested
+    }
+}else
+{
+    //do something else
+}
 
