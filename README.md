@@ -503,3 +503,32 @@ var phrase="Yet another phrase";
 var segment=phrase.slice(6,5); //6th position 5 letters starting from 0
 .substring()       .substr()
 "UPPER CASE letters are considered as less than lowercase letters"
+
+Dates in JavaScript
+
+var today=new Date();//current date and time
+//year month day
+var y2k=new Date(2000,0,1);
+
+//year month day hours min sec
+var y2k=new Date(2000,0,1,0,0,0);
+
+Methods of Date Object
+
+var today=new Date();//current date and time
+
+today.getMonth();
+today.getFullYear();
+today.getYear();//deprecated
+today.getDate();
+today.getHours();
+today.getTime();
+
+Set Methods
+
+var today=new Date();//current date and time
+
+today.setMonth(5);
+today.setFullYear(2020);
+today.setDay(0);
+
