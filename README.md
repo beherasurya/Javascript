@@ -328,3 +328,71 @@ var remainder=year%4;//remainder is 3
         continue;
     }
  }
+Functions in javascript
+get window height
+get window widht        calculateArea
+calculate area
+store area
+
+do calculations
+check value             createMessage
+output message
+
+get image position
+calculate new value
+set image position       animateImage
+change text color
+if position correct
+    Output message
+Where to Decl(are Functions
+
+Define your functions before you call them
+Wrong Syntax:
+myFunction();
+
+function myFunction()
+{
+    console.log('Do something');
+}
+Corret syntax
+function myFunction()
+{
+    console.log('Do something');
+}
+myFunction();
+Functions with Parameters
+
+function myFunction(x,y,z)
+{
+    var a=x+y+z;
+    console.log(a);
+    return a;
+}
+myFunction(2,3,4);
+Variable Scope
+
+function myFunction()
+{
+    a=25;//local scope
+    console.log(a);
+}
+myFunctioin();
+a=20; //Global scope
+function myFunction()
+{
+    console.log();
+}
+Function Mismatch                       
+function myFunction(x,y,z)                   
+{
+    //do something
+}
+myFunction(25,26);
+//z is undefined
+
+function myFunction(x,y,z)
+{
+    //do something
+}
+myFunction(25,26,27,28);
+//28 is ignored
